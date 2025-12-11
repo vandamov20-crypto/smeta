@@ -1,0 +1,22 @@
+version:
+  revision: "9944297386681a09b51ae4548b80d4b31980b4d7"
+  channel: stable
+
+project_type: app
+
+migration:
+  platforms:
+    - platform: root
+      create_base_migration: true
+    - platform: android
+      create_base_migration: true
+    - platform: ios
+      create_base_migration: true
+    - platform: linux
+      create_base_migration: true
+    - platform: macos
+      create_base_migration: true
+    - platform: web
+      create_base_migration: true
+    - platform: windows
+      create_base_migration: true
